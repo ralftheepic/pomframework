@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GammaCM" parallel="false" thread-count="5">
+	<test name="WorkListTests">
+		<classes>
+			<class name="com.techm.att.gammacm.tests.WorkListTests" />
+		</classes>
+	</test>	
+	
+	<test name="SearchTests">
+		<classes>
+			<class name="com.techm.att.gammacm.tests.SearchTests" />
+		</classes>
+	</test>	
+	
+	<test name="ViewUpdateTests">
+		<classes>
+			<class name="com.techm.att.gammacm.tests.ViewUpdateTests" />
+		</classes>
+	</test>	
+	
+	<test name="BulkUploadTests">
+		<classes>
+			<class name="com.techm.att.gammacm.tests.BulkUploadTests" />
+		</classes>
+	</test>	
+	
+</suite>
