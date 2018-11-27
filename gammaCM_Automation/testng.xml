@@ -6,6 +6,7 @@
 		</classes>
 	</test>	
 	
+	
 	<test name="SearchTests">
 		<classes>
 			<class name="com.techm.att.gammacm.tests.SearchTests" />
@@ -21,6 +22,12 @@
 	<test name="BulkUploadTests">
 		<classes>
 			<class name="com.techm.att.gammacm.tests.BulkUploadTests" />
+		</classes>
+	</test>	
+	
+	<test name="Digicel">
+		<classes>
+			<class name="com.techm.att.gammacm.tests.DigicelWorklistTest" />
 		</classes>
 	</test>	
 	
